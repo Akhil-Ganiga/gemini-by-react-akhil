@@ -15,7 +15,7 @@ import {
 // // import "dotenv/config";
 // require("dotenv").config();
 // const apiKey = process.env.GEMINI_API_KEY;
-const apiKey = "AIzaSyC8OlsDn2XafYArWkC2GdW1Q-2_hpZj3TA";
+const apiKey = "please add api key";
 const genAI = new GoogleGenerativeAI(apiKey);
 
 const model = genAI.getGenerativeModel({
